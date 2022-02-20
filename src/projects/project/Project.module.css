@@ -1,16 +1,18 @@
-.work {
+.project {
     width: 250px;
-    background-color: #546b90;
+    background-color:    #545454;;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+
 }
 
 .icon {
     height: 240px;
     width: 240px;
-    background-color: #7b6c6c;
+    /*background-color: #7b6c6c;*/
+    /*padding: 10px 20px;*/
 }
 
 .description {
@@ -20,6 +22,20 @@
     background-color: #a2d294;
 }
 .img {
-    height: 240px;
-    width: 240px;
+    /*height: 240px;*/
+    /*width: 240px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageContainer {
+    height: 200px;
+    width: 100%;
+    /*background-image: url('https://wallpaperaccess.com/full/2005056.png');*/
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

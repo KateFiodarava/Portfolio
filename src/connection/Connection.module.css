@@ -1,6 +1,6 @@
-.worksBlock {
+.connectionBlock {
     height: 100vh;
-    background-color: #dbc899;
+    background-color: #b686b4;
 }
 .worksContainer {
     flex-direction: column;
@@ -16,5 +16,8 @@ background-color: #a75d5d;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.button {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
 }
 

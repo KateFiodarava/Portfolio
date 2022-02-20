@@ -1,22 +1,4 @@
-.projectsBlock {
-    min-height: 100vh;
-    background-color: #1f1f20;
-    padding: 100px 0;
-}
-.projects {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
 
-.projectsContainer {
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-
-}
 .title h2{
     margin: 0 0 30px;
     font-family: 'Josefin Sans', sans-serif;

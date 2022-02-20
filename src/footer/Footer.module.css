@@ -1,8 +1,8 @@
-.worksBlock {
+.footerBlock {
     height: 100vh;
     background-color: #dbc899;
 }
-.worksContainer {
+.footerContainer {
     flex-direction: column;
     justify-content: flex-start;
 
@@ -10,11 +10,26 @@
 .title {
 background-color: #a75d5d;
 }
-.works {
+.footer {
+    width: 300px;
+    height: 40px;
     border: 1px solid;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+}
+.button {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+}
+.form {
+    background-color: #c5d3ec;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.link {
+    background-color: #a2d294;
 }
 
