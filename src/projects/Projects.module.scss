@@ -1,0 +1,58 @@
+@import "../../src/common/styles/sass/variable";
+
+
+.projectsBlock {
+  min-height: 100vh;
+  background-color: $bgColor;
+  padding: 100px 0;
+
+  .projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+    .projects {
+      border: 1px solid;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      align-items: flex-start;
+      @media screen and (max-width: 871px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+//.title h2 {
+//    margin: 0 0 30px;
+//    font-family: 'Josefin Sans', sans-serif;
+//    font-weight: 400;
+//    color: #fff;
+//    text-transform: capitalize;
+//    font-size: 36px;
+//    line-height: 1.2;
+//    letter-spacing: 5px;
+//    position: relative;
+//}
+
+//.title {
+//    margin: 0;
+//    position: relative;
+//}
+
+//.title::before {
+//    content: "";
+//    position: absolute;
+//    background: #4e93e6;
+//    width: 55px;
+//    height: 1px;
+//    bottom: -30px;
+//    left: 50%;
+//    transform: translate(-50%, 50%);
+//}
+
+
