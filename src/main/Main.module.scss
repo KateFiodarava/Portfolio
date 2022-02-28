@@ -1,0 +1,35 @@
+@import "../../src/common/styles/sass/variable";
+@import "../my-app/src/common/styles/sass/mixins";
+
+.mainBlock {
+  height: 100vh;
+  background-color: $bgColor;
+
+
+  .text {
+    width: 350px;
+    background-color: $bgColor;
+    color: $textColor;
+    @include text($titleFontFamily,16px,1.2);
+    .span {
+      position: relative;
+      display: inline-block;
+      color:$primaryColor;
+    }
+
+  }
+
+  .photo {
+    width: 350px;
+    height: 400px;
+    background-color: $bgColor;
+    background-size: cover;
+    border:  1px solid $primaryColor;
+    border-radius: 25px;
+  }
+}
+
+
+
+
+

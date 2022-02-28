@@ -1,0 +1,21 @@
+@import "../../src/common/styles/sass/variable";
+@import "../my-app/src/common/styles/sass/mixins";
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 45%;
+    height: 50%;
+    .link {
+        font-family: "Poppins",sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #4e93e6;
+        transition: .3s;
+        text-decoration: none;
+    }
+}

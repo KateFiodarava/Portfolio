@@ -1,12 +1,12 @@
-import style from './Nav.module.css'
+import style from './Nav.module.scss'
 
 function Nav() {
     return (
         <div className={style.nav}>
-            <a href=''>Home</a>
-            <a href=''>About</a>
-            <a href=''>Portfolio</a>
-            <a href=''>Contact</a>
+           <nav> <a className={style.link}  href='Nav.js'>Home</a></nav>
+            <nav> <a className={style.link} href='/my-app/src/skills/Skills.js'>About</a></nav>
+                <nav><a className={style.link} href='/my-app/src/projects/Projects.js'>Portfolio</a></nav>
+                    <nav> <a className={style.link} href='/my-app/src/contacts/Contacts.js'>Contact</a></nav>
 
         </div>
     );

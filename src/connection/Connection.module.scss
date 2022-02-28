@@ -1,0 +1,39 @@
+@import "../../src/common/styles/sass/variable";
+@import "../my-app/src/common/styles/sass/mixins";
+
+.connectionBlock {
+  height: 100vh;
+  background-color: $bgSecondColor;
+
+
+  .worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .title {
+      background-color: $bgSecondColor;
+      color: $textColor;
+      @include text($titleFontFamily,20px,1.2)
+    }
+
+    .button {
+      background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+      visibility: visible;
+      animation-delay: 0.3s;
+      animation-name: fadeInUp;
+    }
+
+
+  }
+}
+
+
+/*.works {*/
+/*    border: 1px solid;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    flex-wrap: wrap;*/
+/*}*/
+
+

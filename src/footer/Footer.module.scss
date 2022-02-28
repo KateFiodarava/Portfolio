@@ -1,0 +1,50 @@
+@import "../../src/common/styles/sass/variable";
+@import "../my-app/src/common/styles/sass/mixins";
+
+.footerBlock {
+  height: 100vh;
+  background-color: $bgSecondColor;
+
+  .footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .title {
+      background-color: $bgSecondColor;
+      color: $textColor;
+    }
+
+    .footer {
+      width: 300px;
+      height: 40px;
+      border: 1px solid;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
+    }
+
+    .form {
+      background-color: #c5d3ec;
+      height: 80px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .link {
+      background-color: $bgSecondColor;
+      color: $textColor;
+    }
+ .copyright{
+  color: rgba(255, 255, 255, .5);
+}
+
+  }
+}
+
+
+

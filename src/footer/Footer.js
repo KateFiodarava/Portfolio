@@ -1,4 +1,4 @@
-import style from './Footer.module.css'
+import style from './Footer.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 
 
@@ -17,7 +17,7 @@ export const Footer = () => {
 
 
                 </div>
-                <div>2021@ all rights reserved</div>
+                <div className={style.copyright}>2021@ all rights reserved</div>
             </div>
         </div>
     )

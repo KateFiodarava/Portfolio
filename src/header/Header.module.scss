@@ -1,0 +1,10 @@
+@import "../../src/common/styles/sass/variable";
+@import "../my-app/src/common/styles/sass/mixins";
+
+.header {
+    background-color: $bgSecondColor;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
