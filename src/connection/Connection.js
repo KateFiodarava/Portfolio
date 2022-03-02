@@ -10,7 +10,7 @@ export const Connection = () => {
                 <h2 className={style.title}>
                     I am considering the option of remote work</h2>
                <a href={"https://www.linkedin.com/in/kate-fiodarava-5553a7216/"}> <button className={style.button} >HIRE ME</button> </a>
-            </div>
+             </div>
         </div>
     )
 }

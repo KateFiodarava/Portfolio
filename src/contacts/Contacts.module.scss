@@ -2,8 +2,11 @@
 @import "../my-app/src/common/styles/sass/mixins";
 
 .contactsBlock {
-    height: 100vh;
+    height: 60vh;
     background-color: $bgColor;
+    display: block;
+    margin-top: 0em;
+
     .contactsContainer {
         flex-direction: column;
         justify-content: flex-start;
@@ -17,6 +20,7 @@
             flex-wrap: nowrap;
             position: relative;
             width: 100%;
+            color: $textColor;
         }
     }
     .contacts {
@@ -29,15 +33,31 @@
         align-items: center;
         height: 200px;
         .form {
-            background-color: #c5d3ec;
             height: 80px;
-            /*display: flex;*/
-            /*justify-content: flex-end;*/
-            /*align-items: center;*/
-        }
+            //display: flex;
+            justify-content: flex-end;
+            align-items: center;        }
         .button {
             background: -webkit-gradient(linear, 0 0, 0 100%, from(#00BBD6), to(#EBFFFF));
             padding: 10px 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+            width: 160px;
+            height: 50px;
+            overflow: hidden;
+            border: 3px solid $primaryColor;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            transition: .5s;
+            font-family: $textFontFamily;
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+            text-decoration: none;
 
         }
 

@@ -28,7 +28,7 @@ export const Projects = () => {
                         style={todolist}
                         title={'Todolist'}
                              description={'My second project'}
-                             link={'https://www.google.com/search?q=%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D0%B4%D1%87%D0%B8%D0%BA&spell=1&sa=X&ved=2ahUKEwjAhrji9eDyAhXGhf0HHQFZBocQBSgAegQIARA0&biw=1366&bih=657'}
+                             link={'https://KateFiodarava.github.io/Todolist'}
                     />
                 </div>
             </div>

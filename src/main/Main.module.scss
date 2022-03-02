@@ -10,11 +10,17 @@
     width: 350px;
     background-color: $bgColor;
     color: $textColor;
-    @include text($titleFontFamily,16px,1.2);
+    @include text($titleFontFamily,17px,1.2);
+   .h1 {
+     position: relative;
+     margin-bottom: 20px;
+
+   }
     .span {
       position: relative;
       display: inline-block;
       color:$primaryColor;
+
     }
 
   }
