@@ -14,7 +14,7 @@ export const Projects = () => {
         backgroundImage:`url(${todoImage})`,
     }
     return (
-        <div className={style.projectsBlock}>
+        <section className={style.projectsBlock} id={'projectsId'}>
             <div
                 className={`${styleContainer.container} ${style.projectsContainer}`}>
            <Title title={'Projects'}/>
@@ -32,7 +32,7 @@ export const Projects = () => {
                     />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

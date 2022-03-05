@@ -7,7 +7,7 @@ function Main() {
         backgroundImage:`url(${Photo})`,
     }
     return (
-        <div className={style.mainBlock}>
+        <section className={style.mainBlock} id={'mainId'}>
             <div className={styleContainer.container}>
                 <div className={style.text}>
                     <span>Hi There</span>
@@ -17,7 +17,7 @@ function Main() {
                 <div className={style.photo} style={photo}>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

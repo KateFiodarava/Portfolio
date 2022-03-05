@@ -5,7 +5,7 @@ import {Title} from "../common/components/title/Title";
 
 export const Skills = () => {
     return (
-        <div className={style.skillsBlock}>
+        <section className={style.skillsBlock} id={'skillsId'}>
             <div
                 className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={'Skills'}/>
@@ -37,7 +37,7 @@ export const Skills = () => {
                            description={'Distributed version control system that allows you to create repositories to manage collaborative development and, if necessary, revert to earlier versions of the application.'}/>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

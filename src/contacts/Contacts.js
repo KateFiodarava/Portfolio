@@ -5,7 +5,7 @@ import styleContainer from '../common/styles/Container.module.css'
 
 export const Contacts = () => {
     return (
-        <div className={style.contactsBlock}>
+        <section className={style.contactsBlock} id={'contactsId'}>
             <div
                 className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <h2 className={style.title}>Contacts</h2>
@@ -18,7 +18,7 @@ export const Contacts = () => {
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
