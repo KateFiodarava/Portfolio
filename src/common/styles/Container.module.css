@@ -6,4 +6,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-right: 15px;
+    padding-left: 15px;
+
 }

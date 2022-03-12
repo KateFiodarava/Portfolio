@@ -10,14 +10,14 @@ export const Footer = () => {
                 className={`${styleContainer.container} ${style.footerContainer}`}>
                 <h2 className={style.title}>Kate Fedorova</h2>
                 <div className={style.footer}>
-                    <div className={style.link}>GitHub</div>
-                    <div className={style.link}>Telegram </div>
-                    <div className={style.link}> linkedin</div>
-                    <div className={style.link}>CodeWars </div>
+                    <a href={"https://github.com/KateFiodarava"}> <div className={style.link}>GitHub</div></a>
+                    <a href={"https://t.me/KateFiodarava"}>  <div className={style.link}>Telegram </div></a>
+                    <a href={"https://www.linkedin.com/in/kate-fiodarava-5553a7216/"}><div className={style.link}> Linkedin</div></a>
+                    <a href={"https://www.codewars.com/users/KateFiodarava"}><div className={style.link}>CodeWars </div></a>
 
 
                 </div>
-                <div className={style.copyright}>2021@ all rights reserved</div>
+                <div className={style.copyright}>2021@ All Rights Reserved</div>
             </div>
         </div>
     )

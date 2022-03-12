@@ -6,3 +6,27 @@
   line-height: $lineHeight;
   color: $textColor;
 }
+
+@mixin button($width, $height, $backgroundColor, $borderColor) {
+  width: $width;
+  height: $height;
+  background-color: $backgroundColor;
+  overflow: hidden;
+  border: 3px solid $borderColor;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: .5s;
+  @include text( 400, $textColor);
+}
+
+@mixin container() {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  min-height: 100%;
+  margin: 0 auto;
+  padding: 50px 0;
+  border-radius: 5px;
+}
